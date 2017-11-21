@@ -1,0 +1,25 @@
+$full-size: 100%;
+
+html,
+body,
+ul,
+ol,
+div,
+article,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body, {
+  box-sizing: border-box;
+  height: $full-size;
+  width: $full-size;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
