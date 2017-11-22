@@ -1,5 +1,6 @@
 //master scss file
 
-@import './reset';
-@import './prefixer';
-@import './fluidtype';
+@import './reset'; //reset, margin, padding, box sizing
+@import './prefixer'; //vendor prefixes
+// @import './fluidtype'; //fluid type mixin
+// @import './fluidscale'; //fluid scaling for paragraphs as well as headlines
